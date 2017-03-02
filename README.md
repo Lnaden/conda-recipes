@@ -1,4 +1,4 @@
-* Travis-CI `linux`and `osx` builds [![Travis Build Status](https://travis-ci.org/omnia-md/conda-recipes.svg?branch=master)](https://travis-ci.org/omnia-md/conda-recipes)
+* Travis-CI `linux`and `osx` builds [![Travis Build Status](https://travis-ci.org/omnia-md/conda-recipes.svg?branch=master)](https://travis-ci.org/omnia-md/conda-recipes?branch=master)
 * Appveyor-CI `win` builds [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/fyjgl66t943tf2yg/branch/master?svg=true)](https://ci.appveyor.com/project/jchodera/conda-recipes/branch/master)
 
 
@@ -21,11 +21,11 @@ $ conda install mdtraj
 ### Supported versions
 
 Python packages are built against latest two releases of python (3.5 and 3.6) and python 2.7.
-Packages which have a binary dependency on [numpy](http://www.numpy.org/) are built against the latest two releases of numpy (1.10 and 1.11).
+Packages which have a binary dependency on [numpy](http://www.numpy.org/) are built against the latest two releases of numpy (1.11 and 1.12).
 
 **WARNING: Python 3.4 support will be phased out now that python 3.6 has been released.**
 
-**WARNING: Numpy 1.09 support will be phased out now that numpy 1.11 has been released.**
+**WARNING: Numpy 1.10 support will be phased out now that numpy 1.12 has been released.**
 
 ### Building the packages
 
